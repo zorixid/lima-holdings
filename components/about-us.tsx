@@ -19,12 +19,13 @@ export const AboutUs = () => {
       </div>
       <div className="flex">
         <Image
-          src="/logo.png"
+          src="/logo-3.jpeg"
           alt="Company Logo"
-          className="bg-[aliceblue] p-5 rounded-lg w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] md:p-7"
+          className="bg-[aliceblue] p-5 rounded-lg w-[250px] sm:h-[250px] md:w-[350px] md:h-[350px] md:p-2"
           layout="intrinsic"
-          width={300}
-          height={300}
+          width={1350}
+          height={1350}
+          unoptimized
         />
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full gap-4">
