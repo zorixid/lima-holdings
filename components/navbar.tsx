@@ -6,16 +6,16 @@ export const Navbar = () => {
   return (
     <nav className="bg-transparent">
       <div className="max-w-12xl container mx-auto px-2 sm:px-6 lg:px-8">
-        <div className="h-26 relative flex items-center justify-between px-5 py-5 sm:px-0">
-          <div className="flex items-center justify-start gap-4 sm:gap-8">
+        <div className="h-26 relative flex items-center justify-between px-5 py-2 sm:px-0">
+          <div className="flex items-center justify-start gap-0 sm:gap-8">
             <Link href="/">
               <div className="flex flex-shrink-0 items-center">
                 <Image
-                  src="/logo.png"
+                  src="/logo-5.jpeg"
                   width={1250}
                   height={1250}
                   alt="Logo"
-                  className="bg-[aliceblue] rounded-lg p-4 w-[250px]"
+                  className="rounded-lg w-[100px] sm:w-[150px]"
                 />
               </div>
             </Link>

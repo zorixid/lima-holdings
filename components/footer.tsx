@@ -15,7 +15,13 @@ export const Footer = () => {
         <aside>
           <Link href="/">
             <div className="flex flex-shrink-0 items-center gap-3">
-              <Image src="/logo.png" width={150} height={150} alt="Logo" />
+              <Image
+                src="/logo-1.jpeg"
+                width={150}
+                height={150}
+                alt="Logo"
+                className="rounded-lg"
+              />
             </div>
           </Link>
         </aside>
