@@ -11,7 +11,7 @@ export const Navbar = () => {
             <Link href="/">
               <div className="flex flex-shrink-0 items-center">
                 <Image
-                  src="/logo-5.jpeg"
+                  src="/logo-5.png"
                   width={1250}
                   height={1250}
                   alt="Logo"

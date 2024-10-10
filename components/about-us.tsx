@@ -19,7 +19,7 @@ export const AboutUs = () => {
       </div>
       <div className="flex">
         <Image
-          src="/logo-3.jpeg"
+          src="/logo-3.png"
           alt="Company Logo"
           className="bg-[aliceblue] p-5 rounded-lg w-[250px] sm:h-[250px] md:w-[350px] md:h-[350px] md:p-2"
           layout="intrinsic"
