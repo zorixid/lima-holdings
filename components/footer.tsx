@@ -4,7 +4,7 @@ import { Socials } from "./socials";
 
 export const Footer = () => {
   return (
-    <footer className="flex flex-col px-4 pt-12 pb-6 bg-gradient text-white gap-8">
+    <footer className="flex flex-col px-4 pt-12 pb-6 bg-[#060706] text-white gap-8">
       <div className="flex flex-col gap-8 sm:flex-row items-start justify-around">
         <nav>
           <p>Global Headquarters</p>
@@ -14,7 +14,7 @@ export const Footer = () => {
         </nav>
         <aside>
           <Link href="/">
-            <div className="flex flex-shrink-0 items-center gap-3">
+            <div className="flex flex-shrink-0 items-center gap-3 -mt-5">
               <Image
                 src="/logo-1.png"
                 width={150}
