@@ -10,12 +10,20 @@ import "swiper/css/effect-fade";
 
 import Image from "next/image";
 import { EffectFade, Navigation, Pagination, Autoplay } from "swiper/modules";
-import { slidesData } from "@/data";
 
-export default function Slider() {
+export default function Slider({
+  direction = "horizontal",
+  navigation = true,
+  slidesData,
+}: {
+  direction: "vertical" | "horizontal";
+  navigation: boolean;
+  slidesData: { url: string; alt: string }[];
+}) {
   return (
     <>
       <Swiper
+        direction={direction}
         spaceBetween={30}
         effect={"fade"}
         autoplay={{
@@ -23,7 +31,7 @@ export default function Slider() {
           disableOnInteraction: false,
         }}
         centeredSlides={true}
-        navigation={true}
+        navigation={navigation}
         pagination={{
           clickable: true,
         }}
