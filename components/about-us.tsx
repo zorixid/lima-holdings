@@ -3,7 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { aboutSections, groupLogos } from "@/data";
-import { SwiperCards } from "./swiper-cards";
 import useIsLargeScreen from "@/hooks/useIsLargeScreen";
 import Slider from "./slider";
 
