@@ -30,7 +30,7 @@ export const TeamMember = ({
           width={256}
           height={256}
           layout="intrinsic"
-          className="mx-auto !w-[200px] !h-[200px] rounded-full hover:scale-105 transition-transform duration-300 bg-[aliceblue]"
+          className="mx-auto !w-[200px] !h-[200px] object-cover rounded-full hover:scale-105 transition-transform duration-300 bg-[aliceblue]"
         />
       </div>
       <div className="text-left text-justify leading-6 lg:leading-7">
