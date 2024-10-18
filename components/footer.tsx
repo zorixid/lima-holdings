@@ -29,6 +29,9 @@ export const Footer = () => {
           <Link href="/">
             <h6 className="footer-title">Home</h6>
           </Link>
+          <Link href="/team">
+            <h6 className="footer-title">Team</h6>
+          </Link>
           <Link href="/contact-us">
             <h6 className="footer-title">Contact us</h6>
           </Link>

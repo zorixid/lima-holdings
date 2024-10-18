@@ -2,11 +2,11 @@
 
 import { useThemeSwitch } from "@/context/theme-switch";
 
-export const DarkMode = () => {
+export const DarkMode = ({ className }: { className?: string }) => {
   const { theme, toggleTheme } = useThemeSwitch();
 
   return (
-    <label className="swap swap-rotate">
+    <label className={`swap swap-rotate ${className}`}>
       <input
         type="checkbox"
         checked={theme === "dark"}
