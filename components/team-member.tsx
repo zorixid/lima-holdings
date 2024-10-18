@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import clsx from "clsx";
 
 export const TeamMember = ({
   member,
@@ -33,7 +34,14 @@ export const TeamMember = ({
         />
       </div>
       <div className="text-left text-justify leading-6 lg:leading-7">
-        {displayedText}
+        <div
+          className={clsx(
+            "transition-all duration-300 overflow-hidden inline",
+            isExpanded ? "max-h-[1000px]" : "max-h-[100px]"
+          )}
+        >
+          {displayedText}
+        </div>
         {member.bio.length > MAX_LENGTH && (
           <span
             onClick={toggleReadMore}
